@@ -1,0 +1,56 @@
+*{
+    font-family: lato;
+    margin: 0%;
+    padding: 0;
+
+}
+
+#logo{
+    width: 15%;
+    padding: 1%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#welcome-msg{
+    font-size: 1.2rem;
+    padding: 25px;
+    text-align: center;
+}
+
+.collection img{
+    width: 100%;
+}
+
+.collection{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+}
+
+
+
+.shirt-text{
+    font-size: 1.3rem;
+    font-weight: 200;
+    height: 100%x;
+    width: 100%;
+    height: auto;
+}
+
+.item:hover {
+    opacity: 50%;
+}
+
+@media screen and (max-width : 800px) {
+    .collection{
+        padding-top: 1%;
+        padding-bottom: 1%;
+        display: flex;
+        flex-direction: column;
+    }
+}

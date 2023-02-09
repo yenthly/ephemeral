@@ -1,0 +1,49 @@
+*{
+    font-family: lato;
+    margin: 0%;
+    padding: 0;
+
+
+}
+
+#back{
+    position: absolute;
+    padding: 5%;
+    text-decoration: none;
+    color: black;
+}
+img{
+    width: 100%;
+}
+
+
+
+button{
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: 5%;
+    padding: 1%;
+    font-size: 1.5rem;
+}
+
+
+form {
+    font-size: 1.2rem;
+}
+.description{
+    padding: 5%;
+}
+
+#sizeSelection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+.size-selection{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
